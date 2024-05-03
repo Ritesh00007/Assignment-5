@@ -1,0 +1,14 @@
+@keyframes rotate-animation {
+    from {
+        transform: rotate(0deg) translate(-50%, -50%);
+        transform-origin: 150px 150px;
+    }
+    to {
+        transform: rotate(360deg) translate(-50%, -50%);
+        transform-origin: 150px 150px;
+    }
+}
+
+circle {
+    animation: rotate-animation 10s linear infinite;
+}
